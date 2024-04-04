@@ -13,7 +13,7 @@ const boxesContainer = document.querySelector("#boxes");
 function createBoxes(amount) {
   for (let i = 0; i < amount; i++) {
     const box = document.createElement("div");
-    const size = 30 + i * 10; // Розміри першого квадрата 30x30, потім збільшуються на 10px з кожним наступним
+    const size = 30 + i * 10;
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
